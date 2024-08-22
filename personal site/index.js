@@ -1,14 +1,15 @@
 // space, scary, military, romantic, cowboy, fantasy, superhero
-favouriteMovieGenre("space")
+favouriteMovieGenre("Superhero")
 
 // watermelon, tomato, banana, orange, avocado, blueberry
-favouriteFruit("avocado")
+favouriteFruit("banana")
 
 // light, dark
 favouriteMode("dark")
 
 // sharp, soft, round
 favouriteEdgeStyle("soft")
+
 
 function setProp(prop, value) {
     document.documentElement.style.setProperty(prop, value)
@@ -76,3 +77,5 @@ function favouriteFruit(theme) {
         setProp('--dark', "#222222")
     } 
 }
+
+
